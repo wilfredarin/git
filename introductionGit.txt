@@ -1,0 +1,33 @@
+1.go to github
+2.create a new repository
+3. copy the url of the repository
+4. go inside your folder through terminal
+5. type the following command:
+		
+		a.git init
+		
+		b.git add .
+
+				do this after every change
+
+				The git add command adds a change in the working directory to the staging area. It tells Git that you want to include updates to a particular file in the next commit. However, git add doesn't really affect the repository in any significant way—changes are not actually recorded until you run git commit .
+		
+		c.git commit -m "First Commit"
+
+				f the user exits the editor without editing the message, the commit is aborted. This has no effect when a message is given by other means, e.g. with the -m or -F options. ... It allows you to create a commit with an empty commit message without using plumbing commands like git-commit-tree[1].
+
+		d.git remote add origin "url of ur repository"
+		
+		e.git remote -v
+		
+		f.git push origin master
+
+				Use git push to push commits made on your local branch to a remote repository. The git push command takes two arguments: A remote name, for example, origin. A branch name, for example, master.
+
+
+Now type your github username and password when required and it's done now:]
+
+
+use: git status :to know  about the status of the new repository
+
+git clone "url of repository"
